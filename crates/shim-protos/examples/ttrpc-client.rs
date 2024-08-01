@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use containerd_shim_protos::{api::CreateTaskRequest, TaskClient};
+use containerd_shim_protos::{api::CreateTaskRequest, TaskClient, ttrpc};
 use ttrpc::{
     context::{self, Context},
     Client,
